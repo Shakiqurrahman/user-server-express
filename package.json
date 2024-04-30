@@ -1,0 +1,19 @@
+{
+  "name": "user-server",
+  "version": "1.0.0",
+  "description": "this is for just exploring",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "express",
+    "js"
+  ],
+  "author": "Shakiqur Rahman",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
