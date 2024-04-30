@@ -7,8 +7,9 @@ const port = process.env.PORT || 3000;
 const loginText = "<h1>Please Login First!!</h1>"
 const registarText = '<h3>Before Login, You must have to register!!</h3>'
 const userData = {
-    "shake" : "web developer",
-    "queen" : "shake's queen"
+    "name" : "Shakiqur Rahman",
+    "profession" : "Web Developer",
+    "specializedIn" : "Front-End Development"
 }
 
 app.get("/", (req, res) => {
