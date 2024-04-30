@@ -8,7 +8,7 @@ const loginText = "<h1>Please Login First!!</h1>"
 const registarText = '<h3>Before Login, You must have to register!!</h3>'
 const userData = {
     "shake" : "web developer",
-    "shama" : "queen"
+    "queen" : "shake's queen"
 }
 
 app.get("/", (req, res) => {
